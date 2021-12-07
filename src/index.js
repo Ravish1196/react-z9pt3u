@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Component1 } from './App';
 import App from './App';
+import Del from './Del';
 
-ReactDOM.render(
-  <Component1 name={'Ravish'} course="ReactJS" />,
-  document.getElementById('root')
-);
+ReactDOM.render(<Del />, document.getElementById('root'));
